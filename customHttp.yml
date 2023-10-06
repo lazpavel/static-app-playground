@@ -1,9 +1,5 @@
 customHeaders:
-  - pattern: '*-max-age.jpeg'
+  - pattern: '**/public/*'
     headers:
-    - key: 'cache-control'
-      value: 'max-age=30, stale-while-revalidate'
-  - pattern: '*-s-maxage.jpeg'
-    headers:
-    - key: 'cache-control'
-      value: 's-maxage=30, stale-while-revalidate'
+      - key: cache-control
+        value: 'max-age=30, stale-while-revalidate'
