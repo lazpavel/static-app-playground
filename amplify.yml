@@ -7,4 +7,5 @@ frontend:
   artifacts:
     files:
         - index.html
+        - public/*
     baseDirectory: src
